@@ -1,1 +1,45 @@
-/* Start coding here */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.head-title {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #92aabd;
+  color: #183b56;
+  height: 120px;
+  padding: 30px;
+}
+
+.chiangmai-recommend {
+  display: flex;
+  flex-direction: column;
+
+  background-color: #e4e9ed;
+  color: #183b56;
+  border: 3px solid #183b56;
+  margin: 30px;
+  width: 350px;
+  padding: 13px;
+}
+
+.ten-rank-recommend {
+  display: flex;
+  flex-direction: column;
+
+  background-color: #e4e9ed;
+  color: #183b56;
+  border: 3px solid #183b56;
+  margin: 30px;
+  width: 350px;
+  padding: 13px;
+}
+
+img {
+  padding-top: 7px;
+  padding-bottom: 7px;
+}

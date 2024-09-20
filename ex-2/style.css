@@ -1,1 +1,27 @@
-/* Start coding here */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.box1 {
+  border: 16px solid lightgray;
+}
+
+.box2 {
+  border: 16px solid black;
+}
+
+.box3 {
+  border: 24px solid crimson;
+}
+
+.box4 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  padding-top: 30px;
+  background-color: yellow;
+  border: 20px solid yellow;
+  height: 600px;
+}
